@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/register.css" />
+    <title>Form Registrasi</title>
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="background-overlay"></div>
+
+    <div class="register-container">
+      <h1>UNIMUS</h1>
+      <p>— Register your account —</p>
+      <form action="#" method="POST">
+        <div class="input-group">
+          <input type="text" name="nama" placeholder="Nama Lengkap" required />
+        </div>
+        <div class="input-group">
+          <input type="text" name="id" placeholder="NIM / NIP" required />
+        </div>
+        <div class="input-group">
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <input
+            type="password"
+            name="repeat_password"
+            placeholder="Repeat Password"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <input type="tel" name="no_telp" placeholder="No. Telp" required />
+        </div>
+
+        <!-- Checkbox Group for Mahasiswa and Dosen -->
+        <div class="checkbox-group">
+          <label
+            ><input type="checkbox" name="role" value="mahasiswa" />
+            Mahasiswa</label
+          >
+          <label
+            ><input type="checkbox" name="role" value="dosen" /> Dosen</label
+          >
+        </div>
+
+        <button type="submit" class="register-btn">Register</button>
+      </form>
+    </div>
+  </body>
+</html>

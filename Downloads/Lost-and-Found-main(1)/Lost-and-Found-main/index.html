@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lost & Found UNIMUS</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">🔎 Lost & Found UNIMUS</div>
+      <nav>
+        <ul>
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#">Laporan Kehilangan</a></li>
+          <li><a href="#">Laporan Penemuan</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Temukan Barang Hilang di Kampus UNIMUS</h1>
+      <p>
+        Laporkan barang yang hilang atau ditemukan berdasarkan fakultas dan
+        gedung.
+      </p>
+      <div class="buttons">
+        <button class="report-btn">📌 Laporkan Kehilangan</button>
+        <button class="report-btn">📌 Laporkan Penemuan</button>
+      </div>
+    </section>
+
+    <section class="filter-section">
+      <h2>Cari Barang Berdasarkan Fakultas & Gedung</h2>
+      <form>
+        <select>
+          <option value="">Pilih Fakultas</option>
+          <option value="kedokteran">Fakultas Kedokteran</option>
+          <option value="teknik">Fakultas Teknik</option>
+          <option value="ekonomi">Fakultas Ekonomi</option>
+          <option value="kesehatan">Fakultas Kesehatan Masyarakat</option>
+        </select>
+        <select>
+          <option value="">Pilih Gedung</option>
+          <option value="a">Gedung A</option>
+          <option value="b">Gedung B</option>
+          <option value="c">Gedung C</option>
+          <option value="d">Gedung D</option>
+        </select>
+        <button type="submit">🔍 Cari</button>
+      </form>
+    </section>
+
+    <section class="services">
+      <div class="service-card">
+        <img src="lost-icon.png" alt="Lost Items" />
+        <h3>Barang Hilang</h3>
+        <p>Lihat daftar barang yang hilang di kampus.</p>
+        <button class="read-btn lost-btn">LOST</button>
+      </div>
+
+      <div class="service-card">
+        <img src="found-icon.png" alt="Found Items" />
+        <h3>Barang Ditemukan</h3>
+        <p>Barang yang ditemukan dan menunggu pemiliknya.</p>
+        <button class="read-btn found-btn">FOUND</button>
+      </div>
+    </section>
+  </body>
+</html>
